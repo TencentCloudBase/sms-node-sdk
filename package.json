@@ -1,0 +1,33 @@
+{
+  "name": "sms-node-sdk",
+  "version": "0.0.1",
+  "description": "sms node sdk for tencent cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "sms",
+    "node",
+    "sdk",
+    "tencentcloud"
+  ],
+  "author": "heyli",
+  "license": "MIT",
+  "dependencies": {
+    "qcloudsms_js": "^0.1.1"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/!(tools)/*.js",
+      "**/test/*.js"
+    ],
+    "testEnvironment": "node"
+  }
+}

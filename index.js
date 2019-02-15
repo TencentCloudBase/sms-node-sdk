@@ -1,0 +1,1 @@
+exports.SmsClient = require('./libs/BaseService');
