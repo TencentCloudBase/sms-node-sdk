@@ -208,7 +208,7 @@ class BaseService {
         });
     }
 
-    // 拉取短信回信
+    // 拉取短信回复
     SmsStatusPullReply(data = {}, options = {}) {
         let {
             maxNum
