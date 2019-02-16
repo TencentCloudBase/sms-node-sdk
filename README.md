@@ -77,7 +77,7 @@ npm install sms-node-sdk
 若您对接口存在疑问，可以查阅:
 
 * [API开发指南](https://cloud.tencent.com/document/product/382/5808)
-* [SDK文档](/docs/README.md)
+* [SDK文档](https://github.com/TencentCloudBase/sms-node-sdk/blob/master/docs/README.md)
 * [错误码](https://cloud.tencent.com/document/product/382/3771)
 
 ### 示例

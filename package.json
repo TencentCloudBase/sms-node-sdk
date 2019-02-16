@@ -1,10 +1,14 @@
 {
   "name": "sms-node-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "sms node sdk for tencent cloud",
   "main": "index.js",
   "scripts": {
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/TencentCloudBase/sms-node-sdk.git"
   },
   "keywords": [
     "sms",
