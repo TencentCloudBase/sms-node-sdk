@@ -58,7 +58,7 @@ smsClient.init({
 | ext | string | 是 | 扩展参数，默认为空字符串，返回包时，服务器会把ext原样返回
 
 ### 单发短信-指定模板id
-* action 值为 `SmsSingleSendWithParam`
+* action 值为 `SmsSingleSendTemplate`
 
 * data 参数
 
@@ -87,7 +87,7 @@ smsClient.init({
 | ext | string | 是 | 扩展参数，默认为空字符串，返回包时，服务器会把ext原样返回
 
 ### 群发短信-指定模板id
-* action 值为 `SmsMultiSendWithParam`
+* action 值为 `SmsMultiSendTemplate`
 
 * data 参数
 

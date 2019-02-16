@@ -51,7 +51,7 @@ class BaseService {
     }
 
     // 单发-指定模板id
-    SmsSingleSendWithParam(data = {}, options = {}) {
+    SmsSingleSendTemplate(data = {}, options = {}) {
         let {
             nationCode,
             phoneNumber,
@@ -106,7 +106,7 @@ class BaseService {
     }
 
     // 群发-指定模板id
-    SmsMultiSendWithParam(data = {}, options = {}) {
+    SmsMultiSendTemplate(data = {}, options = {}) {
         let {
             nationCode,
             phoneNumbers = [],

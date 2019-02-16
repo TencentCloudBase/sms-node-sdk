@@ -31,7 +31,7 @@ describe('发送普通短信', () => {
     it('指定模板ID单发短信', async () => {
         let smsClient = new SmsClient({ AppID, AppKey });
         let result = await smsClient.init({
-            action: 'SmsSingleSendWithParam',
+            action: 'SmsSingleSendTemplate',
             data: {
                 nationCode: '86',
                 phoneNumber,
@@ -66,7 +66,7 @@ describe('发送普通短信', () => {
     it('群发 - 指定模板ID单发短信', async () => {
         let smsClient = new SmsClient({ AppID, AppKey });
         let result = await smsClient.init({
-            action: 'SmsMultiSendWithParam',
+            action: 'SmsMultiSendTemplate',
             data: {
                 nationCode: '86',
                 phoneNumbers,
